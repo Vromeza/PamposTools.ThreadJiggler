@@ -1,5 +1,4 @@
-﻿using PamposTools.ThreadJiggler.Abstractions;
-using System;
+﻿using System;
 using System.Threading;
 
 namespace PamposTools.ThreadJiggler.Jiggler

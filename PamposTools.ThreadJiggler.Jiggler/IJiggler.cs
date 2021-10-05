@@ -2,6 +2,6 @@
 {
     public interface IJiggler
     {
-        public void Jiggle();
+        void Jiggle();
     }
 }

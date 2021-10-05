@@ -1,7 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFrameworks>net5.0;netstandard2.1;netcoreapp3.1;net45;net47;net471;net472</TargetFrameworks>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageId>PamposTools.ThreadJiggler</PackageId>
+    <Authors>Charalambos Hadjiantoniou</Authors>
+    <Company>Charalambos Hadjiantoniou</Company>
+    <Product>Thread Jiggler .NET</Product>
+    <Description>A very basic thread jiggler for .NET</Description>
+    <Copyright>Charalambos Hadjiantoniou</Copyright>
+    <RepositoryUrl>https://github.com/Vromeza/PamposTools.ThreadJiggler</RepositoryUrl>
+    <PackageTags>threading, jiggle, jiggler, thread, test</PackageTags>
+    <PackageReleaseNotes>1.0.0 First release</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
